@@ -1,1 +1,33 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: lightslategray;
+}
 
+#define {
+	display: none;
+	position: fixed;
+	z-index: 5;
+	background-color: white;
+	border: solid black;
+	padding: 10;
+	width: 500px;
+	height: 100px;
+	margin: 0;
+}
+
+footer {
+	clear: both;
+	background-color: #CCCCCC;
+	color: white;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
+
+.wordbox {
+    text-align: center;
+    border: solid white;
+    margin: 3px;
+
+}
